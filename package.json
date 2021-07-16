@@ -1,0 +1,13 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "description": "1. Generate the project",
+  "main": "index.js",
+  "scripts": {
+    "build": "mvn install && mvn package",
+    "start": "java -cp target/my-app-1.0-SNAPSHOT.jar com.mycompany.app.App"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
